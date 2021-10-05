@@ -1,7 +1,10 @@
 {% if pizza %}
 <div class="pizza__card">
     {% if pizzaPage %}
-        <img src="{{ pizza.image }}">
+    <figure>
+        <img src="{{ pizza.image }}" alt="{{ pizza.name }}">
+        <figcaption>Alla ingredienser som inte syns är inbakade under osten.</figcaption>
+    </figure>
     {% endif %}
     <h1>
         <span>{{ pizza.number }}. </span>

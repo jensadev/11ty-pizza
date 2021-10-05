@@ -1,6 +1,24 @@
 <style>
     header {
         margin-bottom: 2rem;
+        background-image: url("/images/flodgris.jpg");
+        background-size: cover;
+        background-position: center center;
+        position: relative;
+
+        padding: 1rem;
+
+        color: #fff;
+        z-index: 1;
+    }
+    .filter {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
     }
 </style>
 <header class="container">
@@ -9,4 +27,5 @@
     <h2>Ring {{ meta.phone }} för att beställa</h2>
     <p>Du hittar oss på {{ meta.address }}</p>
     <h3>Välkommen!</h3>
+    <div class="filter"></div>
 </header>
