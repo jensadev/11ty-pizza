@@ -6,8 +6,8 @@
     <h1>
         <span>{{ pizza.number }}. </span>
         <a class="pizza__name" href="/pizza/{{ pizza.name | slug }}">{{ pizza.name }}</a>
+        <span class="pizza__price">{{ pizza.price }}kr</span>
     </h1>
     <p>{{ pizza.toppings }}</p>
-    <p>{{ pizza.price }}kr</p>
 </div>
 {% endif %}

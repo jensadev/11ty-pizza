@@ -1,3 +1,4 @@
+
 .container {
     display: flex;
     flex-direction: column;
@@ -11,4 +12,8 @@ h1 > .pizza__name::first-letter {
 }
 .pizza__name {
     display: inline-block;
+}
+
+.pizza__price {
+    font-size: 1rem;
 }

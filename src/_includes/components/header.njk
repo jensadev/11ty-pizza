@@ -1,5 +1,12 @@
-<h1>{{ meta.title }} - <em>{{ meta.tagline }}</em></h1>
-<p>Vi har öppet alla dagar {{ meta.hours }}</p>
-<h2>Ring {{ meta.phone }} för att beställa</h2>
-<p>Du hittar oss på {{ meta.address }}</p>
-<h3>Välkommen!</h3>
+<style>
+    header {
+        margin-bottom: 2rem;
+    }
+</style>
+<header class="container">
+    <h1>{{ meta.title }} - <em>{{ meta.tagline }}</em></h1>
+    <p>Vi har öppet alla dagar {{ meta.hours }}</p>
+    <h2>Ring {{ meta.phone }} för att beställa</h2>
+    <p>Du hittar oss på {{ meta.address }}</p>
+    <h3>Välkommen!</h3>
+</header>
