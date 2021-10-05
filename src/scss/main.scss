@@ -1,11 +1,8 @@
+@use "utilities/reset";
 
-.container {
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-}
+@use "theme" as theme;
+
+@use "utilities/container";
 
 h1 > .pizza__name::first-letter {
     text-transform: uppercase;

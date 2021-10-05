@@ -1,0 +1,9 @@
+@use "../theme" as theme;
+
+.container {
+    max-width: theme.$max-content-width;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
