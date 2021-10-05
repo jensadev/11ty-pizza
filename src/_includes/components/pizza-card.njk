@@ -1,0 +1,13 @@
+{% if pizza %}
+<div class="pizza__card">
+    {% if pizzaPage %}
+        <img src="{{ pizza.image }}">
+    {% endif %}
+    <h1>
+        <span>{{ pizza.number }}. </span>
+        <a class="pizza__name" href="/pizza/{{ pizza.name | slug }}">{{ pizza.name }}</a>
+    </h1>
+    <p>{{ pizza.toppings }}</p>
+    <p>{{ pizza.price }}kr</p>
+</div>
+{% endif %}

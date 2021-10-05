@@ -1,0 +1,8 @@
+---
+layout: base.njk
+---
+
+<h1>Meny</h1>
+{% for pizza in gammal_pizza.items %}
+    {% include "components/pizza-card.njk" %}
+{% endfor %}

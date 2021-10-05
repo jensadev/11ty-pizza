@@ -1,0 +1,10 @@
+---
+layout: base.njk
+pagination:
+    data: gammal_pizza.items
+    size: 1
+    alias: pizza
+permalink: "pizza/{{ pizza.name | slug }}/"
+---
+{% set pizzaPage = true %}
+{% include "components/pizza-card.njk" %}
