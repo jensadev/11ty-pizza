@@ -1,0 +1,25 @@
+{
+    "items": [
+        {
+            "number": 1, 
+            "name": "Margherita",
+            "price": 75,
+            "ingredients": [
+                "Tomat",
+                "Ost",
+                "Basilika"
+            ]
+        },
+        {
+            "number": 2,
+            "name": "Capricciosa",
+            "price": 75,
+            "ingredients": [
+                "Tomat",
+                "Ost",
+                "Skinka",
+                "Champinioner"
+            ]
+        }
+    ]
+}
